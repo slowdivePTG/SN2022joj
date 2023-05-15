@@ -1,7 +1,7 @@
 # Example YAML configuration for TARDIS
 tardis_config_version: v1.0
 supernova:
-  luminosity_requested: 9.47 log_lsun
+  luminosity_requested: 9.17 log_lsun
   time_explosion: 16.75 day
   luminosity_wavelength_start: 3000 angstrom
   luminosity_wavelength_end: 9500 angstrom

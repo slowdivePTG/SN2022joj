@@ -44,17 +44,63 @@
 
 \section{Introduction} \label{sec:intro}\section{Observations} \label{sec:obs}
 \subsection{Optical Photometry}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{photometry.pdf}
+    \label{fig:lc}
+    \caption{Comparison of the photometric properties of \sn\ with those of ZTF18abauprj (99aa-/91T-like SN) and SN\,2013bh (00cx-like SN). \textit{Left}: multiband light curves. The upper (lower) panel shows the evolution in the $g$-band ($r$-band) absolute magnitude. %{The arrows mark the 5$\sigma$ limit of the last nondetections of \sn\ in $g_\mathrm{ZTF}$ and $r_\mathrm{ZTF}$.} 
+    \textit{Right}: $g-r$ color evolution. %For each object, the peak epoch is marked by a vertical line with the corresponding color on the bottom axis. 
+    The gray circles denote the $g_\mathrm{ZTF}-r_\mathrm{ZTF}$ color evolution of 12 nearby ($z\le0.05$) normal SNe\,Ia (open circles) from the ZTF sample with prompt observations within 5\,days of first light \citep{Bulla2020}.}
+\end{figure*}
 \subsection{Optical Spectroscopy}\label{sec:optical_spec}
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{SN2022joj_spectral_sequence.pdf}
+    \caption{Optical spectral sequence of \sn. Rest-frame phases (days) relative to the $B$-band peak and instruments used are posted next to each spectrum. Spectra have been corrected for $E(B-V)_\mathrm{MW} = 0.04$\,mag and are shown in gray. The black lines are binned spectra with a bin size of 10\,\AA, except for the SEDM spectra, whose resolution is lower than the bin size. The corresponding wavelengths of the \ion{Si}{2} $\lambda$6355 line (with an expansion velocity of 10,000\,\kms) and the \ion{Ca}{2} IRT (with expansion velocities of both 10,000\,\kms and 25,000\,\kms) are marked by the vertical dashed lines.}
+    \label{fig:spec_seq}
+\end{figure}
 
 \input{./spec.tex}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{host_spec.pdf}
+    \caption{The LRIS spectra reveal the H$\alpha$ emission line from the host galaxy at 6742.4\,\AA, corresponding to a redshift $z=0.02736$.}
+    \label{fig:host_spec}
+\end{figure*}
 
 \section{Analysis} \label{sec:analysis}
 
 \subsection{Optical Spectral Properties}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{spec_comp.pdf}
+    \caption{Optical spectral sequence of \sn.}
+    \label{fig:spec_comp}
+\end{figure*}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{phase_space.pdf}
+    \caption{\sn\ as a SN\,Ia in the shallow-silicon class.}
+    \label{fig:phase_space}
+\end{figure*}
 
 \section{Discussion} \label{sec:discussion}
 \subsection{Models} \label{sec:model}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{model_comparison_spec.pdf}
+    \caption{\sn\ v.s. DDet models.}
+    \label{fig:model_spec}
+\end{figure*}
 
+\subsection{Nebular-phase Spectra}
+\begin{itemize}
+    \item weak emission in the 7300 complex compared to normal SNe\,Ia -- similar to 91T-like events
+    \item Blueshifted [\ion{Fe}{2}] 7300 features ($\sim$$-2.21\pm0.33\mathrm{\,km\,s^{-1}}$ in the Binospec spectrum; $\sim$$-1.24\pm0.42\mathrm{\,km\,s^{-1}}$ in the LRIS spectrum), consistent with low-\ion{Si}{2}-velocity SNe Ia
+    \item No evidence for [\ion{Ni}{2}] $\lambda\lambda$7378, 7412 or [\ion{Ca}{2}] $\lambda\lambda$7291, 7323 -- 3-$\sigma$ upper limit for $M_\mathrm{Fe}/M_\mathrm{Ni}$ is 0.05 (techniques adopted from \citet{Maguire_2018}), consistent with sub-\Mch\ DDet scenario?
+\end{itemize}
 \section{Conclusions} \label{sec:conclusion}
 
 %\begin{acknowledgements}
@@ -70,11 +116,11 @@
 
 %\end{acknowledgements}
 
-\facility{PO:1.2m (ZTF), PO:1.5m (SEDM), Gemini:Gillett (GNIRS), Hale (DBSP), NOT (ALFOSC), Shane (Kast Double spectrograph), Keck:I (LRIS), Keck:II (DEIMOS).}
-\software{\texttt{astropy} \citep{Astropy_2013, Astropy_2018}, \texttt{CASTRO} \citep{Almgren_Castro_2010}, \texttt{dynesty} \citep{Speagle_dynesty_2020}, \texttt{emcee} \citep{emcee_2013}, \texttt{LAMBDAR} \citep{Wright2016a}, \texttt{matplotlib} \citep{Matplotlib_2007}, \texttt{prospector} \citep{Johnson_prospector_2021}, \texttt{PypeIt} \citep{pypeit:zenodo}, \texttt{pysedm} \citep{Rigault_pysedm_2019}, \texttt{Python-FSPS} \citep{Conroy_2009,Conroy_2010}, \texttt{scipy} \citep{Scipy_2020}, \texttt{seaborn} \citep{Waskom_seaborn_2021}, \texttt{SEDONA} \citep{Kasen_Sedona_2006}.}
+\facility{PO:1.2m (ZTF), PO:1.5m (SEDM), FTN (FLOYDS), FTS (FLOYDS), NOT (ALFOSC), Liverpool:2m (SPRAT), Keck:I (LRIS), MMT (Binospec).}
+\software{\texttt{astropy} \citep{Astropy_2013, Astropy_2018}, \texttt{CASTRO} \citep{Almgren_Castro_2010}, \texttt{dynesty} \citep{Speagle_dynesty_2020}, \texttt{LAMBDAR} \citep{Wright2016a}, \texttt{matplotlib} \citep{Matplotlib_2007}, \texttt{prospector} \citep{Johnson_prospector_2021}, \texttt{PypeIt} \citep{pypeit:zenodo}, \texttt{pysedm} \citep{Rigault_pysedm_2019}, \texttt{Python-FSPS} \citep{Conroy_2009,Conroy_2010}, \texttt{scipy} \citep{Scipy_2020}, \texttt{seaborn} \citep{Waskom_seaborn_2021}, \texttt{SEDONA} \citep{Kasen_Sedona_2006}.}
 
 
-\bibliography{SN2022joj, ZTF, software}
+\bibliography{SN2022joj, software, telescope}
 \bibliographystyle{aasjournal}
 
 %% This command is needed to show the entire author+affiliation list when

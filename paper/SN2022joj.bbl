@@ -48,6 +48,14 @@
 {Astropy Collaboration}, {Price-Whelan}, A.~M., {Sip{\H{o}}cz}, B.~M., {et~al.}
   2018, \aj, 156, 123, \dodoi{10.3847/1538-3881/aabc4f}
 
+\bibitem[{{Bulla} {et~al.}(2020){Bulla}, {Miller}, {Yao}, {Dessart}, {Dhawan},
+  {Papadogiannakis}, {Biswas}, {Goobar}, {Kulkarni}, {Nordin}, {Nugent},
+  {Polin}, {Sollerman}, {Bellm}, {Coughlin}, {Dekany}, {Golkhou}, {Graham},
+  {Kasliwal}, {Kupfer}, {Laher}, {Masci}, {Porter}, {Rusholme}, \&
+  {Shupe}}]{Bulla2020}
+{Bulla}, M., {Miller}, A.~A., {Yao}, Y., {et~al.} 2020, \apj, 902, 48,
+  \dodoi{10.3847/1538-4357/abb13c}
+
 \bibitem[{{Conroy} \& {Gunn}(2010)}]{Conroy_2010}
 {Conroy}, C., \& {Gunn}, J.~E. 2010, \apj, 712, 833,
   \dodoi{10.1088/0004-637X/712/2/833}
@@ -55,11 +63,6 @@
 \bibitem[{{Conroy} {et~al.}(2009){Conroy}, {Gunn}, \& {White}}]{Conroy_2009}
 {Conroy}, C., {Gunn}, J.~E., \& {White}, M. 2009, \apj, 699, 486,
   \dodoi{10.1088/0004-637X/699/1/486}
-
-\bibitem[{{Foreman-Mackey} {et~al.}(2013){Foreman-Mackey}, {Hogg}, {Lang}, \&
-  {Goodman}}]{emcee_2013}
-{Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013, \pasp,
-  125, 306, \dodoi{10.1086/670067}
 
 \bibitem[{{Hunter}(2007)}]{Matplotlib_2007}
 {Hunter}, J.~D. 2007, Computing in Science and Engineering, 9, 90,
@@ -74,6 +77,13 @@
   {Nugent}}]{Kasen_Sedona_2006}
 {Kasen}, D., {Thomas}, R.~C., \& {Nugent}, P. 2006, \apj, 651, 366,
   \dodoi{10.1086/506190}
+
+\bibitem[{{Maguire} {et~al.}(2018){Maguire}, {Sim}, {Shingles}, {Spyromilio},
+  {Jerkstrand}, {Sullivan}, {Chen}, {Cartier}, {Dimitriadis}, {Frohmaier},
+  {Galbany}, {Guti{\'e}rrez}, {Hosseinzadeh}, {Howell}, {Inserra}, {Rudy}, \&
+  {Sollerman}}]{Maguire_2018}
+{Maguire}, K., {Sim}, S.~A., {Shingles}, L., {et~al.} 2018, \mnras, 477, 3567,
+  \dodoi{10.1093/mnras/sty820}
 
 \bibitem[{{Prochaska} {et~al.}(2020){Prochaska}, {Hennawi}, {Cooke},
   {Westfall}, {Wang}, {EmAstro}, {Tiffanyhsyu}, {Wasserman}, {Villaume},
