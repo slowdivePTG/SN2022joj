@@ -257,7 +257,7 @@ class SpectrumSN_Lines(SpectrumSN):
             free_rel_strength=free_rel_strength,
             snr=self.snr,
             bin=self.bin,
-            bin_size=self.bin_size
+            bin_size=self.bin_size,
         )
 
 
@@ -374,7 +374,7 @@ class AbsorbLine(SpectrumSN):
         free_rel_strength=[],
         snr=10,
         bin=False,
-        bin_size=1
+        bin_size=1,
     ):
         """Constructor
 
@@ -414,8 +414,9 @@ class AbsorbLine(SpectrumSN):
 
         super(AbsorbLine, self).__init__(spec1D, z)
 
-        if np.isnan(self.fl_unc.all()):
-            self.fl_unc = np.ones_like(self.fl) * np.median(self.fl) / snr
+        if np.isnan(self.fl_unc).all():
+            print("assign manual snr...")
+            self.fl_unc = np.ones_like(self.fl) * np.nanmedian(self.fl) / snr
         if bin:
             print("binning spectrum...")
             dat = data_binning(
@@ -1140,6 +1141,15 @@ def velocity_rf(lambda_rf, lambda_0):
     v = c * ((lambda_rf / lambda_0) ** 2 - 1) / ((lambda_rf / lambda_0) ** 2 + 1)
 
     return v
+
+
+def wv_rf(vel_rf, lambda_0):
+    """convert relative velocity to rest-frame wavelength"""
+    c = 2.99792458e5
+    beta = vel_rf / c
+    wv = lambda_0 * ((1 + beta) / (1 - beta)) ** 0.5
+
+    return wv
 
 
 def velocity_rf_line(lambda_0, lambda_1, vel):

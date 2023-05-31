@@ -1,0 +1,20 @@
+\begin{deluxetable}{lccc} \label{tab:basics}
+\tabletypesize{\scriptsize}
+\tablewidth{0pt}
+\tablecaption{Basic photometric properties of \sn.}
+\tablehead{
+\colhead{} &
+\colhead{$g_\mathrm{ZTF}$} &
+\colhead{$r_\mathrm{ZTF}$} &
+\colhead{$B$}
+}
+\startdata
+$t_\mathrm{max}$ (MJD) & $59723.94\pm0.02$ & $59725.03\pm0.02$ & $59723.14\pm0.02$\\
+$M_\mathrm{max}$ (mag) & $-19.698\pm0.005$ & $-19.429\pm0.002$ & $-19.822\pm0.007$\\
+\hline
+$t_\mathrm{fl}$ (MJD) &  & $59702.75 ^{+0.86}_{-0.67}$ & \\
+$\alpha$ & & $2.32^{+0.23}_{-0.29}$ & \\
+$t_{\mathrm{fl}, \alpha=2}$ (MJD) &  & $59703.65 ^{+0.10}_{-0.11}$ & 
+\enddata
+\tablecomments{Properties at maxnimum are estimated in a \texttt{SALT3} \citep{Kenworthy_SALT3_2021} fit with the package \texttt{sncosmo} \citep{Barbary_SNCosmo_2023}, while $t_\mathrm{fl}$ and $\alpha$ are estimated in power-law fits to $r_\mathrm{ZTF}$ early light curves. The absolute magnitudes have been corrected for Galactic extinction.}
+\end{deluxetable}
