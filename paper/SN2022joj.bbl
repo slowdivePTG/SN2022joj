@@ -92,6 +92,11 @@ Barbary, K., Bailey, S., Barentsen, G., {et~al.} 2023, SNCosmo, v2.10.0,
 \bibitem[{{Blondin} \& {Tonry}(2007)}]{Blondin_SNID_2007}
 {Blondin}, S., \& {Tonry}, J.~L. 2007, \apj, 666, 1024, \dodoi{10.1086/520494}
 
+\bibitem[{{Boyle} {et~al.}(2017){Boyle}, {Sim}, {Hachinger}, \&
+  {Kerzendorf}}]{Boyle2017_Helium}
+{Boyle}, A., {Sim}, S.~A., {Hachinger}, S., \& {Kerzendorf}, W. 2017, \aap,
+  599, A46, \dodoi{10.1051/0004-6361/201629712}
+
 \bibitem[{{Branch} {et~al.}(2004){Branch}, {Thomas}, {Baron}, {Kasen},
   {Hatano}, {Nomoto}, {Filippenko}, {Li}, \& {Rudy}}]{Branch_00cx_2004}
 {Branch}, D., {Thomas}, R.~C., {Baron}, E., {et~al.} 2004, \apj, 606, 413,
@@ -211,6 +216,15 @@ Barbary, K., Bailey, S., Barentsen, G., {et~al.} 2023, SNCosmo, v2.10.0,
 {Dimitriadis}, G., {Maguire}, K., {Karambelkar}, V.~R., {et~al.} 2023, \mnras,
   521, 1162, \dodoi{10.1093/mnras/stad536}
 
+\bibitem[{{Dong} {et~al.}(2022){Dong}, {Valenti}, {Polin}, {Boyle},
+  {Fl{\"o}rs}, {Vogl}, {Kerzendorf}, {Sand}, {Jha}, {Wyrzykowski}, {Bostroem},
+  {Pearson}, {McCully}, {Andrews}, {Benetti}, {Blondin}, {Galbany},
+  {Gromadzki}, {Hosseinzadeh}, {Howell}, {Inserra}, {Jencson}, {Lundquist},
+  {Lyman}, {Magee}, {Maguire}, {Meza}, {Srivastav}, {Taubenberger}, {Terwel},
+  {Wyatt}, \& {Young}}]{Dong_16dsg_2022}
+{Dong}, Y., {Valenti}, S., {Polin}, A., {et~al.} 2022, \apj, 934, 102,
+  \dodoi{10.3847/1538-4357/ac75eb}
+
 \bibitem[{{Duev} {et~al.}(2019){Duev}, {Mahabal}, {Masci}, {Graham},
   {Rusholme}, {Walters}, {Karmarkar}, {Frederick}, {Kasliwal}, {Rebbapragada},
   \& {Ward}}]{Duev_ZTFML_2019}
@@ -244,6 +258,12 @@ Barbary, K., Bailey, S., Barentsen, G., {et~al.} 2023, SNCosmo, v2.10.0,
 
 \bibitem[{{Fitzpatrick}(1999)}]{Fitzpatrick1999}
 {Fitzpatrick}, E.~L. 1999, \pasp, 111, 63, \dodoi{10.1086/316293}
+
+\bibitem[{{Fl{\"o}rs} {et~al.}(2020){Fl{\"o}rs}, {Spyromilio}, {Taubenberger},
+  {Blondin}, {Cartier}, {Leibundgut}, {Dessart}, {Dhawan}, \&
+  {Hillebrandt}}]{Flors_2020}
+{Fl{\"o}rs}, A., {Spyromilio}, J., {Taubenberger}, S., {et~al.} 2020, \mnras,
+  491, 2902, \dodoi{10.1093/mnras/stz3013}
 
 \bibitem[{{Fransson} \& {Jerkstrand}(2015)}]{Fransson_2015}
 {Fransson}, C., \& {Jerkstrand}, A. 2015, \apjl, 814, L2,
