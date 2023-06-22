@@ -1,20 +1,23 @@
-\begin{deluxetable}{lccc} \label{tab:basics}
+\begin{deluxetable*}{lccc} \label{tab:basics}
 \tabletypesize{\scriptsize}
 \tablewidth{0pt}
 \tablecaption{Basic photometric properties of \sn.}
 \tablehead{
-\colhead{} &
-\colhead{$g_\mathrm{ZTF}$} &
-\colhead{$r_\mathrm{ZTF}$} &
-\colhead{$B$}
+\multicolumn{4}{c}{Rise (flux $\le$$40\%$ of peak luminosity)}
 }
 \startdata
-$t_\mathrm{max}$ (MJD) & $59723.94\pm0.02$ & $59725.03\pm0.02$ & $59723.14\pm0.02$\\
-$M_\mathrm{max}$ (mag) & $-19.698\pm0.005$ & $-19.429\pm0.002$ & $-19.822\pm0.007$\\
+$t_\mathrm{fl}$ (MJD) &  & $59703.16^{+0.70}_{-0.58}$ & \\
+$\alpha_{\mathrm{ZTF}, r}$ & & $2.18^{+0.20}_{-0.24}$ & \\
+$\alpha_{\mathrm{ATLAS}, o}$ & & $2.37^{+0.48}_{-0.20}$ & \\
+$t_{\mathrm{fl}, \alpha=2}$ (MJD) &  & $59703.66 ^{+0.10}_{-0.11}$ & \\
 \hline
-$t_\mathrm{fl}$ (MJD) &  & $59702.75 ^{+0.86}_{-0.67}$ & \\
-$\alpha$ & & $2.32^{+0.23}_{-0.29}$ & \\
-$t_{\mathrm{fl}, \alpha=2}$ (MJD) &  & $59703.65 ^{+0.10}_{-0.11}$ & 
+\multicolumn{4}{c}{Maximum luminosity}\\[+0.1cm]
+\hline
+Filters & $g_\mathrm{ZTF}$ & $r_\mathrm{ZTF}$ & $B$\\
+$t_\mathrm{max,poly}$ (MJD) & $59722.65\pm0.22$ & $59725.13\pm0.08$ & $\cdots$\\
+$M_\mathrm{max,poly}$ (mag) & $-19.693\pm0.013$ & $-19.489\pm0.004$ & $\cdots$\\
+$t_\mathrm{max,SALT}$ (MJD) & $59724.21\pm0.03$ & $59725.29\pm0.03$ & $59723.40\pm0.03$\\
+$M_\mathrm{max,SALT}$ (mag) & $-19.677\pm0.006$ & $-19.407\pm0.002$ & $-19.802\pm0.009$\\
 \enddata
-\tablecomments{Properties at maxnimum are estimated in a \texttt{SALT3} \citep{Kenworthy_SALT3_2021} fit with the package \texttt{sncosmo} \citep{Barbary_SNCosmo_2023}, while $t_\mathrm{fl}$ and $\alpha$ are estimated in power-law fits to $r_\mathrm{ZTF}$ early light curves. The absolute magnitudes have been corrected for Galactic extinction.}
-\end{deluxetable}
+\tablecomments{The absolute magnitudes have been corrected for Galactic extinction.}
+\end{deluxetable*}
