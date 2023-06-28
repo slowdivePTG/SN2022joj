@@ -97,6 +97,11 @@ Barbary, K., Bailey, S., Barentsen, G., {et~al.} 2023, SNCosmo, v2.10.0,
 \bibitem[{{Blondin} \& {Tonry}(2007)}]{Blondin_SNID_2007}
 {Blondin}, S., \& {Tonry}, J.~L. 2007, \apj, 666, 1024, \dodoi{10.1086/520494}
 
+\bibitem[{{Boos} {et~al.}(2021){Boos}, {Townsley}, {Shen}, {Caldwell}, \&
+  {Miles}}]{Boos_2021}
+{Boos}, S.~J., {Townsley}, D.~M., {Shen}, K.~J., {Caldwell}, S., \& {Miles},
+  B.~J. 2021, \apj, 919, 126, \dodoi{10.3847/1538-4357/ac07a2}
+
 \bibitem[{{Branch} {et~al.}(2004){Branch}, {Thomas}, {Baron}, {Kasen},
   {Hatano}, {Nomoto}, {Filippenko}, {Li}, \& {Rudy}}]{Branch_00cx_2004}
 {Branch}, D., {Thomas}, R.~C., {Baron}, E., {et~al.} 2004, \apj, 606, 413,
@@ -424,14 +429,36 @@ Jiang, J.-a., Doi, M., Maeda, K., {et~al.} 2017, Nature, 550, 80,
 \bibitem[{{Kasen}(2010)}]{Kasen_2010}
 {Kasen}, D. 2010, \apj, 708, 1025, \dodoi{10.1088/0004-637X/708/2/1025}
 
+\bibitem[{{Kasen} {et~al.}(2003){Kasen}, {Nugent}, {Wang}, {Howell}, {Wheeler},
+  {H{\"o}flich}, {Baade}, {Baron}, \& {Hauschildt}}]{Kasen_2003}
+{Kasen}, D., {Nugent}, P., {Wang}, L., {et~al.} 2003, \apj, 593, 788,
+  \dodoi{10.1086/376601}
+
 \bibitem[{{Kenworthy} {et~al.}(2021){Kenworthy}, {Jones}, {Dai}, {Kessler},
   {Scolnic}, {Brout}, {Siebert}, {Pierel}, {Dettman}, {Dimitriadis}, {Foley},
   {Jha}, {Pan}, {Riess}, {Rodney}, \& {Rojas-Bravo}}]{Kenworthy_SALT3_2021}
 {Kenworthy}, W.~D., {Jones}, D.~O., {Dai}, M., {et~al.} 2021, \apj, 923, 265,
   \dodoi{10.3847/1538-4357/ac30d8}
 
+\bibitem[{Kerzendorf {et~al.}(2019)Kerzendorf, Nöbauer, Sim, Lietzau,
+  Jančauskas, Vogl, Mishin, Tsamis, Boyle, Gupta, Desai, Klauser, Beaujean,
+  Suban-Loewen, Heringer, Shingles, Barna, Gautam, Patel, Barbosa, Varanasi,
+  Reinecke, Bylund, Bentil, Rajagopalan, Jain, Singh, Talegaonkar, Sofiatti,
+  Patel, Yap, Wahi, \& Gupta}]{tardis-sn_2019}
+Kerzendorf, W., Nöbauer, U., Sim, S., {et~al.} 2019, tardis-sn/tardis: TARDIS
+  v3.0 alpha2, \dodoi{10.5281/zenodo.2590539}
+
+\bibitem[{{Kerzendorf} \& {Sim}(2014)}]{Tardis_2014}
+{Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
+  \dodoi{10.1093/mnras/stu055}
+
 \bibitem[{{Khokhlov}(1991)}]{Khokhlov_1991}
 {Khokhlov}, A.~M. 1991, \aap, 245, L25
+
+\bibitem[{{Kirby} {et~al.}(2019){Kirby}, {Xie}, {Guo}, {de los Reyes},
+  {Bergemann}, {Kovalev}, {Shen}, {Piro}, \& {McWilliam}}]{Kirby_2019}
+{Kirby}, E.~N., {Xie}, J.~L., {Guo}, R., {et~al.} 2019, \apj, 881, 45,
+  \dodoi{10.3847/1538-4357/ab2c02}
 
 \bibitem[{{Kromer} {et~al.}(2010){Kromer}, {Sim}, {Fink}, {R{\"o}pke},
   {Seitenzahl}, \& {Hillebrandt}}]{Kromer_DD_2010}
@@ -609,6 +636,11 @@ Jiang, J.-a., Doi, M., Maeda, K., {et~al.} 2017, Nature, 550, 80,
 {Padilla Gonzalez}, E., {Howell}, D.~A., {Burke}, J., {et~al.} 2023, arXiv
   e-prints, arXiv:2305.07708, \dodoi{10.48550/arXiv.2305.07708}
 
+\bibitem[{{Patat} {et~al.}(2012){Patat}, {H{\"o}flich}, {Baade}, {Maund},
+  {Wang}, \& {Wheeler}}]{Patat_2012}
+{Patat}, F., {H{\"o}flich}, P., {Baade}, D., {et~al.} 2012, \aap, 545, A7,
+  \dodoi{10.1051/0004-6361/201219146}
+
 \bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
   {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
   Transient Facility Collaboration}}]{Patterson_ZTFalert_2019}
@@ -693,6 +725,16 @@ Prochaska, J.~X., Hennawi, J.~F., Westfall, K.~B., {et~al.} 2020, Journal of
 {Roming}, P. W.~A., {Kennedy}, T.~E., {Mason}, K.~O., {et~al.} 2005, \ssr, 120,
   95, \dodoi{10.1007/s11214-005-5095-4}
 
+\bibitem[{{Ruiter} {et~al.}(2011){Ruiter}, {Belczynski}, {Sim}, {Hillebrandt},
+  {Fryer}, {Fink}, \& {Kromer}}]{Ruiter_2011}
+{Ruiter}, A.~J., {Belczynski}, K., {Sim}, S.~A., {et~al.} 2011, \mnras, 417,
+  408, \dodoi{10.1111/j.1365-2966.2011.19276.x}
+
+\bibitem[{{Ruiter} {et~al.}(2014){Ruiter}, {Belczynski}, {Sim}, {Seitenzahl},
+  \& {Kwiatkowski}}]{Ruiter_2014}
+{Ruiter}, A.~J., {Belczynski}, K., {Sim}, S.~A., {Seitenzahl}, I.~R., \&
+  {Kwiatkowski}, D. 2014, \mnras, 440, L101, \dodoi{10.1093/mnrasl/slu030}
+
 \bibitem[{Salvatier {et~al.}(2016)Salvatier, Wiecki, \& Fonnesbeck}]{pymc_2016}
 Salvatier, J., Wiecki, T.~V., \& Fonnesbeck, C. 2016, {PeerJ} Computer Science,
   2, e55, \dodoi{10.7717/peerj-cs.55}
@@ -769,6 +811,16 @@ Salvatier, J., Wiecki, T.~V., \& Fonnesbeck, C. 2016, {PeerJ} Computer Science,
   {Kasen}}]{Townsley_2019}
 {Townsley}, D.~M., {Miles}, B.~J., {Shen}, K.~J., \& {Kasen}, D. 2019, \apjl,
   878, L38, \dodoi{10.3847/2041-8213/ab27cd}
+
+\bibitem[{{Wang} \& {Wheeler}(2008)}]{Wang_2008}
+{Wang}, L., \& {Wheeler}, J.~C. 2008, \araa, 46, 433,
+  \dodoi{10.1146/annurev.astro.46.060407.145139}
+
+\bibitem[{{Wang} {et~al.}(2003){Wang}, {Baade}, {H{\"o}flich}, {Khokhlov},
+  {Wheeler}, {Kasen}, {Nugent}, {Perlmutter}, {Fransson}, \&
+  {Lundqvist}}]{Wang_2003}
+{Wang}, L., {Baade}, D., {H{\"o}flich}, P., {et~al.} 2003, \apj, 591, 1110,
+  \dodoi{10.1086/375444}
 
 \bibitem[{{Wilk} {et~al.}(2020){Wilk}, {Hillier}, \& {Dessart}}]{Wilk_2020}
 {Wilk}, K.~D., {Hillier}, D.~J., \& {Dessart}, L. 2020, \mnras, 494, 2221,
