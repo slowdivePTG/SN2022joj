@@ -1,7 +1,23 @@
-\begin{table*}
-\begin{tabular}{cccccc}
-time & filter & mag & magerr & system & telescope \\
-59707.298 & ZTF $r$ & 19.131 & 0.064 & AB & P48/ZTF \\
+\begin{deluxetable}{cccccc} \label{tab:phot}
+    \tabletypesize{\scriptsize}
+    \tablewidth{0pt}
+    \tablecaption{Optical and UV Photometry of \sn.}
+    \tablehead{
+    \colhead{$t_\mathrm{obs}$} &
+    \colhead{Filter} &
+    \colhead{$m$} &
+    \colhead{$\sigma_m$} &
+    \colhead{Magnitude} &
+    \colhead{Telescope} \\
+    \colhead{(MJD)} &
+    \colhead{} &
+    \colhead{(mag)} &
+    \colhead{(mag)} &
+    \colhead{System} &
+    \colhead{}
+    }
+    \startdata
+    59707.298 & ZTF $r$ & 19.131 & 0.064 & AB & P48/ZTF \\
 59707.34 & ZTF $r$ & 19.078 & 0.043 & AB & P48/ZTF \\
 59709.295 & ZTF $r$ & 18.229 & 0.037 & AB & P48/ZTF \\
 59709.342 & ZTF $r$ & 18.167 & 0.03 & AB & P48/ZTF \\
@@ -447,5 +463,6 @@ time & filter & mag & magerr & system & telescope \\
 59799.016 & $o$ & 18.6 & 0.233 & AB & ATLAS \\
 59799.022 & $o$ & 19.207 & 0.423 & AB & ATLAS \\
 59804.168 & clear & 19.153 & 0.422 & Vega & KAIT \\
-\end{tabular}
-\end{table*}
+    \enddata
+    \tablecomments{Observed magnitudes in the ZTF, ATLAS, UVOT, LT, KAIT, and Nickel passbands. Correction for Galactic extinction has not been applied.}
+\end{deluxetable}
