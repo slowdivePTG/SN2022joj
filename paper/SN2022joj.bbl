@@ -254,18 +254,17 @@ Barbary, K., Bailey, S., Barentsen, G., {et~al.} 2023, SNCosmo, v2.10.0,
 {Conroy}, C., {Gunn}, J.~E., \& {White}, M. 2009, \apj, 699, 486,
   \dodoi{10.1088/0004-637X/699/1/486}
 
-\bibitem[{{Coughlin} {et~al.}(2023){Coughlin}, {Bloom}, {Nir}, {Antier}, {Jegou
-  du Laz}, {van der Walt}, {Crellin-Quick}, {Culino}, {Duev}, {Goldstein},
+\bibitem[{{Coughlin} {et~al.}(2023){Coughlin}, {Bloom}, {Nir}, {Antier}, {du
+  Laz}, {van der Walt}, {Crellin-Quick}, {Culino}, {Duev}, {Goldstein},
   {Healy}, {Karambelkar}, {Lilleboe}, {Shin}, {Singer}, {Ahumada}, {Anand},
-  {Bellm}, {Dekany}, {Graham}, {Kasliwal}, {Kostadinova}, {Weizmann
-  Kiendrebeogo}, {Kulkarni}, {Jenkins}, {LeBaron}, {Mahabal}, {Neill},
-  {Parazin}, {Peloton}, {Perley}, {Riddle}, {Rusholme}, {van Santen},
-  {Sollerman}, {Stein}, {Turpin}, {Wold}, {Amat}, {Bonnefon}, {Bonnefoy},
-  {Flament}, {Kerkow}, {Kishore}, {Jani}, {Mahanty}, {Liu}, {Llinares},
-  {Makarison}, {Olli{\'e}ric}, {Perez}, {Pont}, \&
-  {Sharma}}]{Coughlin_skyportal_2023}
-{Coughlin}, M.~W., {Bloom}, J.~S., {Nir}, G., {et~al.} 2023, arXiv e-prints,
-  arXiv:2305.00108, \dodoi{10.48550/arXiv.2305.00108}
+  {Bellm}, {Dekany}, {Graham}, {Kasliwal}, {Kostadinova}, {Kiendrebeogo},
+  {Kulkarni}, {Jenkins}, {LeBaron}, {Mahabal}, {Neill}, {Parazin}, {Peloton},
+  {Perley}, {Riddle}, {Rusholme}, {van Santen}, {Sollerman}, {Stein}, {Turpin},
+  {Wold}, {Amat}, {Bonnefon}, {Bonnefoy}, {Flament}, {Kerkow}, {Kishore},
+  {Jani}, {Mahanty}, {Liu}, {Llinares}, {Makarison}, {Olli{\'e}ric}, {Perez},
+  {Pont}, \& {Sharma}}]{Coughlin_skyportal_2023}
+{Coughlin}, M.~W., {Bloom}, J.~S., {Nir}, G., {et~al.} 2023, \apjs, 267, 31,
+  \dodoi{10.3847/1538-4365/acdee1}
 
 \bibitem[{De {et~al.}(2019)De, Kasliwal, Polin, Nugent, Bildsten, Adams, Bellm,
   Blagorodnova, Burdge, Cannella, Cenko, Dekany, Feeney, Hale, Fremling,
@@ -354,10 +353,10 @@ de~los Reyes, M. A.~C., Kirby, E.~N., Seitenzahl, I.~R., \& Shen, K.~J. 2020,
 
 \bibitem[{{El-Badry} {et~al.}(2023){El-Badry}, {Shen}, {Chandra}, {Bauer},
   {Fuller}, {Strader}, {Chomiuk}, {Naidu}, {Caiazzo}, {Rodriguez}, {Nagarajan},
-  {Yamaguchi}, {Vanderbosch}, {Roulston}, {van Roestel}, {G{\"a}nsicke}, {Han},
-  {Burdge}, {Filippenko}, {Brink}, \& {Zheng}}]{El-Badry_2023}
-{El-Badry}, K., {Shen}, K.~J., {Chandra}, V., {et~al.} 2023, arXiv e-prints,
-  arXiv:2306.03914, \dodoi{10.48550/arXiv.2306.03914}
+  {Yamaguchi}, {Vanderbosch}, {Roulston}, {G{\"a}nsicke}, {Han}, {Burdge},
+  {Filippenko}, {Brink}, \& {Zheng}}]{El-Badry_2023}
+{El-Badry}, K., {Shen}, K.~J., {Chandra}, V., {et~al.} 2023, The Open Journal
+  of Astrophysics, 6, 28, \dodoi{10.21105/astro.2306.03914}
 
 \bibitem[{{Fabricant} {et~al.}(2019){Fabricant}, {Fata}, {Epps}, {Gauron},
   {Mueller}, {Zajac}, {Amato}, {Barberis}, {Bergner}, {Brennan}, {Brown},
@@ -605,10 +604,10 @@ Jiang, J.-a., Doi, M., Maeda, K., {et~al.} 2017, Nature, 550, 80,
 {Liu}, C., {Miller}, A.~A., {Polin}, A., {et~al.} 2023{\natexlab{a}}, \apj,
   946, 83, \dodoi{10.3847/1538-4357/acbb5e}
 
-\bibitem[{{Liu} {et~al.}(2023{\natexlab{b}}){Liu}, {Roepke}, \&
+\bibitem[{{Liu} {et~al.}(2023{\natexlab{b}}){Liu}, {R{\"o}pke}, \&
   {Han}}]{Liu_2023}
-{Liu}, Z.-W., {Roepke}, F.~K., \& {Han}, Z. 2023{\natexlab{b}}, arXiv e-prints,
-  arXiv:2305.13305, \dodoi{10.48550/arXiv.2305.13305}
+{Liu}, Z.-W., {R{\"o}pke}, F.~K., \& {Han}, Z. 2023{\natexlab{b}}, Research in
+  Astronomy and Astrophysics, 23, 082001, \dodoi{10.1088/1674-4527/acd89e}
 
 \bibitem[{{Livne}(1990)}]{Livne_1990}
 {Livne}, E. 1990, \apjl, 354, L53, \dodoi{10.1086/185721}
