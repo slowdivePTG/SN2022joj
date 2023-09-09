@@ -13,6 +13,7 @@
 \newcommand{\Msun}{\mathrm{M_\odot}}
 \newcommand{\adam}[1]{\textcolor{orange}{[AAM: #1]}}
 \newcommand{\chang}[1]{\textcolor{blue}{[Chang: #1]}}
+\newcommand{\rev}[1]{\textbf{#1}}
 
 \shorttitle{\sn}
 \shortauthors{Liu et al.}
@@ -99,7 +100,7 @@
 \author[0000-0003-2434-0387]{Robert~Stein}
 \affil{Division of Physics, Mathematics and Astronomy, California Institute of Technology, Pasadena, CA 91125, USA}
 
-\author[0000-0001-9834-3439]{Jacobus~H.~Terwel}
+\author[0000-0001-9834-3439]{Jacco~H.~Terwel}
 \affil{School of Physics, Trinity College Dublin, The University of Dublin, Dublin 2, Ireland}
 \affil{Isaac Newton Group (ING), Apt. de correos 321, E-38700, Santa Cruz de La Palma, Canary Islands, Spain}
 
@@ -128,7 +129,7 @@
 
 \begin{abstract} 
 %
-We present observations of SN\,2022joj, a peculiar Type Ia supernova (SN\,Ia) discovered by the Zwicky Transient Facility (ZTF). SN\,2022joj exhibits an unusually red $g_\mathrm{ZTF}-r_\mathrm{ZTF}$ color at early times and a rapid blueward evolution afterwards. Around maximum brightness, SN\,2022joj shows a high luminosity ($M_{g_\mathrm{ZTF},\mathrm{max}}\simeq-19.7$\,mag), a blue broadband color ($g_\mathrm{ZTF}-r_\mathrm{ZTF}\simeq-0.2$\,mag), and shallow \ion{Si}{2} absorption lines, consistent with those of overluminous, SN\,1991T-like events. The maximum-light spectrum also shows prominent absorption around 4200\,\r{A}, which resembles the \ion{Ti}{2} features in subluminous, SN\,1991bg-like events. Despite the blue optical-band colors, SN\,2022joj exhibits extremely red ultraviolet $-$ optical colors at maximum luminosity ($u-v\simeq1.6$\,mag and $uvw1 - v\simeq4.0$\,mag), suggesting a suppression of flux between $\sim$2500--4000\,\r{A}. Strong \ion{C}{2} lines are also detected at peak. We show that these unusual spectroscopic properties are broadly consistent with the helium-shell double detonation of a sub-Chandrasekhar mass ($M\simeq1\,\mathrm{M_\odot}$) carbon/oxygen (C/O) white dwarf (WD) from a relatively massive helium shell ($M_s\simeq0.04$--$0.1\,\mathrm{M_\odot}$), if observed along a line of sight roughly opposite to where the shell initially detonates. None of the existing models could quantitatively explain all the peculiarities observed in SN\,2022joj. The low flux ratio of [\ion{Ni}{2}] $\lambda$7378 to [\ion{Fe}{2}] $\lambda$7155 emission in the late-time nebular spectra indicates a low yield of stable Ni isotopes, favoring a sub-Chandrasekhar mass progenitor. The significant blueshift measured in the [\ion{Fe}{2}] $\lambda$7155 line is also consistent with an asymmetric chemical distribution in the ejecta, as is predicted in double-detonation models.
+We present observations of SN\,2022joj, a peculiar Type Ia supernova (SN\,Ia) discovered by the Zwicky Transient Facility (ZTF). SN\,2022joj exhibits an unusually red $g_\mathrm{ZTF}-r_\mathrm{ZTF}$ color at early times and a rapid blueward evolution afterwards. Around maximum brightness, SN\,2022joj shows a high luminosity ($M_{g_\mathrm{ZTF},\mathrm{max}}\simeq-19.7$\,mag), a blue broadband color ($g_\mathrm{ZTF}-r_\mathrm{ZTF}\simeq-0.2$\,mag), and shallow \ion{Si}{2} absorption lines, consistent with those of overluminous, SN\,1991T-like events. The maximum-light spectrum also shows prominent absorption around 4200\,\r{A}, which resembles the \ion{Ti}{2} features in subluminous, SN\,1991bg-like events. Despite the blue optical-band colors, SN\,2022joj exhibits extremely red ultraviolet $-$ optical colors at maximum luminosity \rev{($u-v\simeq0.6$\,mag and $uvw1 - v\simeq2.5$\,mag)}, suggesting a suppression of flux between $\sim$2500--4000\,\r{A}. Strong \ion{C}{2} lines are also detected at peak. We show that these unusual spectroscopic properties are broadly consistent with the helium-shell double detonation of a sub-Chandrasekhar mass ($M\simeq1\,\mathrm{M_\odot}$) carbon/oxygen (C/O) white dwarf (WD) from a relatively massive helium shell ($M_s\simeq0.04$--$0.1\,\mathrm{M_\odot}$), if observed along a line of sight roughly opposite to where the shell initially detonates. None of the existing models could quantitatively explain all the peculiarities observed in SN\,2022joj. The low flux ratio of [\ion{Ni}{2}] $\lambda$7378 to [\ion{Fe}{2}] $\lambda$7155 emission in the late-time nebular spectra indicates a low yield of stable Ni isotopes, favoring a sub-Chandrasekhar mass progenitor. The significant blueshift measured in the [\ion{Fe}{2}] $\lambda$7155 line is also consistent with an asymmetric chemical distribution in the ejecta, as is predicted in double-detonation models.
 %
 \end{abstract}
 
@@ -176,14 +177,14 @@ Additional observations of \sn\ were obtained in the $o$ and $c$ filters in the 
     \includegraphics[width=\textwidth]{photometry.pdf}
     \caption{\sn\ (black stars) is an overluminous, fast-evolving SN\,Ia with a unique color evolution. In comparison, we show the photometric properties of SN\,2011fe \citep[normal SN\,Ia;][]{Pereira_2013}, SN\,2018cnw (91T-/99aa-like), and SN\,2018cuw (normal SN\,Ia with a red early color). \textit{Left}: multiband light curves. The upper (lower) panel shows the evolution in the $g$-band ($r$-band) absolute magnitude.
     \textit{Right}: $g_\mathrm{ZTF}-r_\mathrm{ZTF}$ color evolution. 
-    The gray circles denote the color evolution of 14 nearby ($z\le0.05$) SNe\,Ia (open circles) from the ZTF sample with prompt observations within 5\,days of first light \citep{Bulla2020}. The phases are measured in the rest frame of the host galaxy, in which $t_{B, \mathrm{max}} - t_\mathrm{fl}=19.1$\,days. Correction for Galactic extinction has been applied, but $K$-corrections have not been performed. The epochs of optical spectroscopy are marked with ``S'' on the top axis.}
+    The gray circles denote the color evolution of 14 nearby ($z\le0.05$) SNe\,Ia (open circles) from the ZTF sample with prompt observations within 5\,days of first light \citep{Bulla2020}. The phases \rev{with respect to $t_{B, \mathrm{max}}$ (MJD 59722.77) and \tfl\ (MJD 59703.16)} are measured in the rest frame of the host galaxy. Correction for Galactic extinction has been applied, but $K$-corrections have not been performed. The epochs of optical spectroscopy are marked with ``S'' on the top axis.}
     \label{fig:lc}
 \end{figure*}
 
 \subsection{Swift Ultraviolet/Optical Telescope (UVOT) Observations}
 Ultraviolet (UV) observations of \sn\ were obtained using UVOT \citep{UVOT_2005} on the Gehrels Swift Observatory \citep[Swift;][]{Swift_2004} following a target-of-opportunity (ToO) request by E.~Padilla Gonzalez. Prior to the SN, UVOT images of the field had been obtained in the $u$, $uvw1$, and $uvw2$ filters. In each of these reference images the flux at the location of the SN is consistent with 0, and the 3$\sigma$ upper limits correspond to $\lesssim$10\% of the SN flux measured in the UV. In the optical bands, the LS photometry ($g = 22.05\pm0.05$\,mag) shows that the host galaxy contributes $\lesssim$1\% of the total observed flux. We therefore conclude that the host galaxy can be neglected when estimating the SN flux in UVOT images.
 
-We estimate the flux in the $u$, $b$, $v$, $uvw1$, $uvm2$, and $uvw2$ filters using a circular aperture with a radius of $5''$ centered at the position of the SN. To estimate the brightness of the sky background we use a coaxial annulus region with an inner/outer radius of $8''$/$10''$. The reduction is performed with the pipeline \texttt{Swift\_ToO}\footnote{\url{https://github.com/slowdivePTG/Swift\_ToO}} based on the package \texttt{HEAsoft}\footnote{\url{http://heasarc.gsfc.nasa.gov/ftools}} version 6.30.1 \citep{HEAsoft_2014}. The fluxes are also reported in Table~\ref{tab:phot}.
+We estimate the flux in the $u$, $b$, $v$, $uvw1$, $uvm2$, and $uvw2$ filters using a circular aperture with a radius of $5''$ centered at the position of the SN. To estimate the brightness of the sky background we use a coaxial annulus region with an inner/outer radius of $8''$/$15''$. The reduction is performed with the pipeline \texttt{Swift\_ToO}\footnote{\url{https://github.com/slowdivePTG/Swift\_ToO}} based on the package \texttt{HEAsoft}\footnote{\url{http://heasarc.gsfc.nasa.gov/ftools}} version 6.30.1 \citep{HEAsoft_2014}. The fluxes are also reported in Table~\ref{tab:phot}.
 
 \input{./table_phot.tex}
 
