@@ -345,8 +345,11 @@ Miller, J., \& Stone, R. 1994, The Kast Double Spectograph, Lick Observatory tec
 \bibitem[{{Oke} {et~al.}(1995){Oke}, {Cohen}, {Carr}, {Cromer}, {Dingizian}, {Harris}, {Labrecque}, {Lucinio}, {Schaal}, {Epps}, \& {Miller}}]{LRIS_1995}
 {Oke}, J.~B., {Cohen}, J.~G., {Carr}, M., {et~al.} 1995, \pasp, 107, 375, \dodoi{10.1086/133562}
 
-\bibitem[{{Padilla Gonzalez} {et~al.}(2023){Padilla Gonzalez}, {Howell}, {Burke}, {Dong}, {Hiramatsu}, {McCully}, {Pellegrino}, {Kerzendorf}, {Modjaz}, {Terreran}, \& {Williamson}}]{Gonzalez_19eix_2023}
-{Padilla Gonzalez}, E., {Howell}, D.~A., {Burke}, J., {et~al.} 2023, arXiv e-prints, arXiv:2305.07708, \dodoi{10.48550/arXiv.2305.07708}
+\bibitem[{{Padilla Gonzalez} {et~al.}(2023{\natexlab{a}}){Padilla Gonzalez}, {Howell}, {Burke}, {Dong}, {Hiramatsu}, {McCully}, {Pellegrino}, {Kerzendorf}, {Modjaz}, {Terreran}, \& {Williamson}}]{Gonzalez_19eix_2023}
+{Padilla Gonzalez}, E., {Howell}, D.~A., {Burke}, J., {et~al.} 2023{\natexlab{a}}, \apj, 953, 25, \dodoi{10.3847/1538-4357/acdd6a}
+
+\bibitem[{{Padilla Gonzalez} {et~al.}(2023{\natexlab{b}}){Padilla Gonzalez}, {Howell}, {Terreran}, {McCully}, {Newsome}, {Burke}, {Farah}, {Pellegrino}, {Bostroem}, {Hosseinzadeh}, {Pearson}, {Sand}, {Shrestha}, {Smith}, {Dong}, {Meza Retamal}, {Valenti}, {Boos}, {Shen}, {Townsley}, {Galbany}, {Piscarreta}, {Foley}, {Bustamante-Rosell}, {Coulter}, {Chornock}, {Davis}, {Dickinson}, {Jones}, {Kutcka}, {Le Saux}, {Rojas-Bravo}, {Taggart}, {Tinyanont}, {Yang}, {Jha}, \& {Margutti}}]{Padilla_Gonzalez_2023}
+{Padilla Gonzalez}, E., {Howell}, D.~A., {Terreran}, G., {et~al.} 2023{\natexlab{b}}, arXiv e-prints, arXiv:2308.06334, \dodoi{10.48550/arXiv.2308.06334}
 
 \bibitem[{{Pakmor} {et~al.}(2013){Pakmor}, {Kromer}, {Taubenberger}, \& {Springel}}]{Pakmor_2013}
 {Pakmor}, R., {Kromer}, M., {Taubenberger}, S., \& {Springel}, V. 2013, \apjl, 770, L8, \dodoi{10.1088/2041-8205/770/1/L8}
