@@ -168,7 +168,7 @@ finders/
 paper/collaborators
 RV/
 absolute_flux/
-photometry/Shen+21_model/
-photometry/Polin+19_model/
+photometry/Shen+21_model/*h5
+photometry/Polin+19_model/*h5
 TARDIS/
 SN2018byg/
